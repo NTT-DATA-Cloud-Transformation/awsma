@@ -1,7 +1,6 @@
 #!/bin/bash
 # This hook is run after every virtualenv is deactivated.
 
-echo "Leaving"
 source $JAMOORA/plugins/$JAMOORA_PLUGIN/leave_hook
 
 
