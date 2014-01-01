@@ -1,0 +1,13 @@
+PATH=$PATH
+
+#$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+alias x=/Applications/Emacs.app/Contents/MacOS/Emacs
+alias rC='source $HOME/.bashrc'
+
+complete -C aws_completer aws
+source virtualenvwrapper.sh
+
+export JAMOORA=$HOME/jamoora
+source $JAMOORA/jamoora.sh
+
