@@ -12,11 +12,8 @@ Prequisites
 Installation
 ------------
 
-1. Source the client.sh file 
-
-2. client-init 
-
-3. client <name of the client> 
-
+* Setup .bashrc using the sample included in the repo
+* add profiles in the .jamurahprofiles folder or use jamoora add
+* Run using jamoora load <profile name>. Type jamoorah leave to leave. 
 
 
