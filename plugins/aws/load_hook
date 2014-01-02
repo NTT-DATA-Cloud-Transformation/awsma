@@ -10,7 +10,6 @@ load_profile_hook () {
     if [ ! -f $JAMOORA_PROFILES/$1/ssh-config ]
     then 
 	echo "SSH config for $1 doesn't exist at $JAMOORA_PROFILES/$1/jamoora/ssh-config" 
-        return 1
     else
         cat ~/.ssh/config.default $JAMOORA_PROFILES/$1/ssh-config > $HOME/.ssh/config
     fi
