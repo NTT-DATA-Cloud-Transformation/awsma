@@ -1,0 +1,47 @@
+commit a53275211bd103a34edf4933d5174c8a2a262de4
+Author: Aater Suleman <aater@flux7.com>
+Date:   Tue Dec 31 23:49:25 2013 -0600
+
+    added requirements.txt for virtualenv
+
+commit 4a52992a86d5cf901904b954d3a643347898d644
+Author: Aater Suleman <aater@flux7.com>
+Date:   Tue Dec 31 23:45:06 2013 -0600
+
+    removed some junk lines
+
+commit ced80dabcf03d4cc37831bb08c50a01cfaa1d766
+Author: Aater Suleman <aater@flux7.com>
+Date:   Tue Dec 31 23:33:22 2013 -0600
+
+    added virtualenv setup, not tested!!!
+
+commit 4c5fc2f99b3692d98237cea4179f4a3263e9d4bf
+Author: Aater Suleman <aater@flux7.com>
+Date:   Tue Dec 31 23:28:13 2013 -0600
+
+    added some basic instructions
+
+commit e184035defa88e6e3a14fc824da25580d6c2b4cb
+Author: Aater Suleman <aater@flux7.com>
+Date:   Tue Dec 31 23:24:53 2013 -0600
+
+    changed example
+
+commit 7ff668263fc8bd86e2f7d037ee20453aa3d67fb3
+Author: Aater Suleman <aater@flux7.com>
+Date:   Tue Dec 31 23:23:16 2013 -0600
+
+    second working version, which also works with virtualenvwrapper
+
+commit 221cb263803697180471922a89b0720cc06ed4e7
+Author: Aater Suleman <aater@flux7.com>
+Date:   Mon Dec 30 09:31:48 2013 -0600
+
+    Initial commit
+
+commit d3d9765bd6f526501c002706491a2461813905db
+Author: Aater Suleman <maater@gmail.com>
+Date:   Mon Dec 30 07:18:32 2013 -0800
+
+    Initial commit
