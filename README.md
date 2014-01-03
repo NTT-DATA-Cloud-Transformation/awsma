@@ -1,7 +1,7 @@
-awsacc
+awsma
 ======
 
-AWSACC (AWS Accounts) is a simple tool to aid DevOps in managing multiple AWS accounts on the CLI. It also includes a tool to create an ssh config file from an AWS account, albiet it is not mature yet. 
+AWSMA (AWS Multiple Accounts) is a simple tool to aid DevOps in managing multiple AWS accounts on the CLI. It also includes a tool to create an ssh config file from an AWS account, albiet it is not mature yet. 
 
 Prequisites
 -----------
