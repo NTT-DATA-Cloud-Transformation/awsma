@@ -1,7 +1,7 @@
-jamurah
-=======
+awsacc
+======
 
-Jamurah consists of multiple tools to aid DevOps in their day to day tasks related to AWS. Jamurah is particularly helpful if you have multiple AWS account. 
+AWSACC (AWS Accounts) is a simple tool to aid DevOps in managing multiple AWS accounts on the CLI. It also includes a tool to create an ssh config file from an AWS account, albiet it is not mature yet. 
 
 Prequisites
 -----------
@@ -12,8 +12,29 @@ Prequisites
 Installation
 ------------
 
-* Setup .bashrc using the sample included in the repo
-* add profiles in the .jamurahprofiles folder or use jamoora add
-* Run using jamoora load <profile name>. Type jamoorah leave to leave. 
+   sudo pip install git+git://github.com/Flux7Labs/jamoora.git
+
+You must source mkaws.sh file before you can use mkaws. You can add this to your ~/.bashrc file.
+
+   source mkaws.sh 
+
+Test
+----
+
+* To create a new aws client environment 
+
+   mkaws clientX
+
+  mkaws will create a new environment and switch to that environment 
+
+
+* To leave a client environment 
+
+   deactive 
+
+* To switch to an existing aws client environment 
+
+   workon clientX
+
 
 
