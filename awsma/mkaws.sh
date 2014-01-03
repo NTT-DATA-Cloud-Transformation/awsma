@@ -23,9 +23,9 @@ mkaws () {
      # Setup hooks 
 
      HOOK_PATH=/usr/local/bin
-     echo 'source $HOOK_PATH/mkaws_mkenv.sh $(basename $VIRTUAL_ENV)' >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postmkvirtualenv
-     echo 'source $HOOK_PATH/mkaws_activate.sh $(basename $VIRTUAL_ENV)' >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postactivate
-     echo 'source $HOOK_PATH/mkaws_deactivate.sh' >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postdeactivate
+     echo source $HOOK_PATH/mkaws_mkenv.sh '$(basename $VIRTUAL_ENV)' >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postmkvirtualenv
+     echo source $HOOK_PATH/mkaws_activate.sh '$(basename $VIRTUAL_ENV)' >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postactivate
+     echo source $HOOK_PATH/mkaws_deactivate.sh >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postdeactivate
 
 
      # setup AWS config  
@@ -43,6 +43,10 @@ mkaws () {
              return 1
 	 fi
      fi
+
+     deactivate 
+     workon $1
 }
+
 
 #mkaws $*
