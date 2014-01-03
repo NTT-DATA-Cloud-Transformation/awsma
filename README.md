@@ -12,7 +12,7 @@ Prequisites
 Installation
 ------------
 
-   sudo pip install git+git://github.com/Flux7Labs/jamoora.git
+   sudo pip install git+git://github.com/Flux7Labs/awsma.git
 
 You must source mkaws.sh file before you can use mkaws. You can add this to your ~/.bashrc file.
 
@@ -36,5 +36,5 @@ Test
 
    workon clientX
 
-
+Direct any questions to aater@flux7.com 
 
