@@ -1,5 +1,0 @@
-jamoora-generate-ssh-config() {
-    jamoora-leave
-    jamoora-load-profile $1
-    aws ec2 describe-instances | jq -r --arg bastion "" --arg identities "~/.ssh/" --arg username "ubuntu" -f $JAMOORA/jq_filter_aws_to_ssh_config > $JAMOORA_PROFILES/$1/ssh-config
-}
