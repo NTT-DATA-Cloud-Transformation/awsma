@@ -31,7 +31,7 @@ mkaws () {
      fi
 
      # Get a new virtualenv 
-     mkvirtualenv --no-pip --no-setuptools $1
+     mkvirtualenv --no-pip --no-setuptools --system-site-packages  $1
 
      # Setup hooks 
      echo source mkaws_mkenv.sh '$(basename $VIRTUAL_ENV)' >> $VIRTUAL_ENV/$VIRTUALENVWRAPPER_ENV_BIN_DIR/postmkvirtualenv
