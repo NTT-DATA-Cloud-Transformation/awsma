@@ -16,6 +16,7 @@ load_profile_hook () {
 
     export AWS_ACCESS_KEY_ID=`cat $VIRTUAL_ENV/aws-config | jq -r '.AWS_ACCESS_KEY_ID'`
     export AWS_SECRET_ACCESS_KEY=`cat $VIRTUAL_ENV/aws-config  | jq -r '.AWS_SECRET_ACCESS_KEY'`
+    export AWS_DEFAULT_REGION=`cat $VIRTUAL_ENV/aws-config  | jq -r '.AWS_DEFAULT_REGION'`
 }
 
 load_ssh_keys () {
