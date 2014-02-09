@@ -1,3 +1,4 @@
 virtualenv
 virtualenvwrapper
 awscli
+selenium
