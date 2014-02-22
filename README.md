@@ -6,7 +6,7 @@ AWSMA (AWS Multiple Accounts) is a simple tool to aid DevOps in managing multipl
 Prequisites
 -----------
 
-* jq (http://stedolan.github.io/jq/)
+* jq version 1.3 or above (http://stedolan.github.io/jq/)
 * bash 
 
 Installation
